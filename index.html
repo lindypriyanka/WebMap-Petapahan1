@@ -375,10 +375,10 @@
         L.Control.Watermark=L.Control.extend({
             onAdd: function(map){
                 var img = L.DomUtil.create('img');
-                img.src = 'logo.png';
+                img.src = logo.png ;
                 img.style.width = '200px';
                 return img;
-            });
+            }); 
             onRemove: function(map){},
             });  
          L.control.watermark = function(opts){
